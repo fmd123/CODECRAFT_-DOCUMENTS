@@ -1,4 +1,4 @@
-<DOCTYPE HTML>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,19 +10,73 @@
 <!-- index.html should have at least 80 lines of code -->
 <!-- All pages should link to each other -->
 <!-- all pages should validate with W3C -->
-<h1>My <strong><em>First</em> </strong>Assignment</h1>
-<p>A website all about me</p>
+<div>
+<!-- I could use div tags to style this differently from rest of document, maybe a different background?  -->
+	<h1>My <strong><em>First</em> </strong>Assignment</h1>
+		<p>A website about me with 80 lines of code</p>
+</div>
 
-<img src = "photofirstassignment.jpeg" alt ="photo of me" width = "200"/> 
+ 
 <!-- To preserve correct aspect ratio simply specify only width or only height -->
-<p>A bit about me</p>
-<ul>
-	<li>I have two daughters. Here they are on their 15th birthday. <br><img src = "IMG_4999.jpg" alt="The Lemma Sisters" width = "200">
-	</li>
-	<li>Here's my Sweetie: <br><img src="IMG_5069.jpg" width="200"></li>
-	<li>We went to New Mexico on Spring Break<br> <img src="IMG_4356.jpg" width="200" 
-	></li>
-</ul>
+<h2>A few things I like:</h2>
+	<ul>
+		<li>Peonies <br> <img src="http://xn--b1afig0bh2a6b.xn--p1ai/img/work/nomencl/1128.jpg" width="300" alt="Peonies">
+			</li>
+		<li>Whiptail Lizards<br><img src="http://thehigherlearning.com/wp-content/uploads/2014/07/whiptail-lizard.png" width="300" alt="Whiptail Lizard"></li>
+
+		<li>Artichokes<br> <img src="https://www.weightwatchers.com/images/1033/dynamic/GCMSImages/SkinnyOnArtichokes_Intro_953577.jpg" width="300" alt="Artichokes in a Bowl" ></li>
+	</ul>
+<p><a href="artichoke_recipes.html"> Artichoke Recipes </a></p>
+
+<hr>
+<h2>These are the family pets:</h2>
+
+		<ul>
+			<li><em>Sophie</em> <br>For more photos of Sophie click on photo <br>  
+				<a href = "Sophie.html"> 
+					<img src="IMG_3370.jpg" width="300" alt="Dog">
+				</a>
+			</li> 
+			<li><strong>Max</strong><br> <img src="IMG_0532.jpg" width="300" alt="bearded dragon">
+			</li>
+		</ul>
+		
+		
+<!-- To use images from my computer put a copy into the webpage documents folder -->
+
+<h2>And now for a numbered list of favorite words...</h2>
+	<ol>
+		<li>zucchini</li>
+		<li>murmurous</li>
+		<li>platypus</li>
+		<li>?</li>
+	</ol>
+
+<hr>
+
+<h2>I spent Spring Break in New Mexico and visited Chaco Canyon</h2>
+
+<img src= "http://www.bosquebill.com/images/Chaco/ChetroKetl-kiva-view_1000w-IMG_1652.jpg" alt = "Chaco Canyon" width = "400"  >
+<!-- align = "middle" not supported in HTML5 so I would have to use CSS -->
+<hr>
+
+<h2>Interesting Websites</h2>
+	<ul> 
+	<li> <a href="http://www.thisiscolossal.com/"> This Is Colossal </a> </li>
+	<li> <a href="http://www.mindful.org/magazine/">Mindful</a> </li>
+	<li> <a href="http://uproxx.com/webculture/donald-trump-calvin-and-hobbes/3/"> Trump and Hobbes</a> </li>
+	</ul>
+
+<h2>Worth Reading</h2>
+
+<p>Sheila Heti's <em>How Should A Person Be?</em></p>
+<p>Hogg's <a href = "https://en.wikipedia.org/wiki/The_Private_Memoirs_and_Confessions_of_a_Justified_Sinner" target="_blank"> <em>The Private Memoirs and Confessions of A Justified Sinner</em></a></p>
+<!-- I was able to have this open in a new tab/window by using target="_blank"  but there were warnings about "tabnabbing" What is that?-->
+<p>Early horror novel that is better and funnier than Frankenstein It has a much more interesting plot. Clever use of unreliable narrator</p>
+
+
+<iframe width="562" height="316" src="https://www.youtube.com/embed/Uun1liGAN6Q" allowfullscreen></iframe>
+<!--  Can I embed a video? Yes! right clicked to get menu and copied embed code. I had to remove one attribute that was no longer supported in HTML5 that the validator objected to.-->
 
 </body>
 </html>
